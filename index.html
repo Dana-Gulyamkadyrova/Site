@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>DanaGulYAmkadirova</title>
+</head>
+<body>
+    <header>
+        <span id="logo">FirstWave</span>
+        <div id="buttonPlace">
+            <a href="./index.html"><span id="homeButton">Home</span></a>
+            <a href="./aboutUs.html"><span id="aboutButton">About</span></a>
+            <a href="./company.html"><span id="companyButton">Company</span></a>
+            <a href="./postPage.html"><span id="postPageButton">PostPage</span></a>
+            <span id="clickMe" onclick="alert('Спасибо, что нажал. Ты такая умничка. Можно 89 баллов, пожалуйста ?')">Нажми на меня</span>
+        </div>
+    </header>
+    <main id="homeMain">
+        <img src="./src/blueSircle.png" alt="ball" id="firstBall">
+        <img src="./src/blueSircle.png" alt="ball" id="secondBall">
+        <img src="./src/blueSircle.png" alt="ball" id="thirdBall">
+        <img src="./src/cat.jpg" alt="Cat" id="catImg">
+        <div id="homeMainBlock">
+            <span id="bigHomeText">Maximize Your IT Investment</span>
+            <span id="normalHomeText">We will help ypu to audit manage, automate and secure your entire business.</span>
+            <span id="paintedHomeText">Shedule a demo with our specialists</span>
+            <form>
+                <div id="homeLables">
+                    <div id="firstLable">
+                        <input checked type="radio" id="contactChoice1"
+                        name="contact" value="Cybersecurity">
+                        <label for="contactChoice1">Cybersecurity</label>
+                    </div>
+
+                    <div id="secondLable">
+                        <input type="radio" id="contactChoice2"
+                        name="contact" value="NetworkManagment">
+                        <label for="contactChoice2">Network Managment</label>
+                    </div>
+                </div>
+                <button id="homeBigButton" onclick="alert('Вы нажали на кнопку. Чего Вы хотели добиться этим? М ? А?')">Book a Demo</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

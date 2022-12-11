@@ -1,0 +1,654 @@
+body{
+    background: #FAFBFC;
+}
+
+header{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    position: absolute;
+    width: 196px;
+    height: 34px;
+    left: 150px;
+    top: 23px;
+
+    font-size: 25px;
+
+    color: darkblue;
+}
+
+#buttonPlace{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+
+    position: absolute;
+    width: 849px;
+    height: 40px;
+    left: 900px;
+    top: 20px;
+}
+
+#homeMain{
+    position: absolute;
+    width: 1317px;
+    height: 728px;
+    left: 0px;
+    top: 94px;
+}
+
+#thirdBall{
+    position: absolute;
+    width: 29.68px;
+    height: 32px;
+    left: 756.81px;
+    top: 718px;
+
+    background: #5956E9;
+    border-radius: 16px;
+}
+
+#secondBall{
+    position: absolute;
+    width: 172.51px;
+    height: 186px;
+    left: 0px;
+    top: 636px;
+
+    background: rgba(0, 112, 240, 0.9);
+    opacity: 0.3;
+    border-radius: 100px;
+}
+
+#firstBall{
+    position: absolute;
+    width: 44.52px;
+    height: 48px;
+    left: 73.27px;
+    top: 94px;
+    
+    background: rgba(0, 112, 240, 0.9);
+    border-radius: 24px;
+}
+
+#catImg{
+    border-radius: 50%;
+    position: absolute;
+    width: 523.09px;
+    height: 564px;
+    left: 793.91px;
+    top: 179px;
+}
+
+#homeMainBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 517.53px;
+    height: 336px;
+    left: 234.65px;
+    top: 318px;
+}
+
+#bigHomeText{
+    width: 517.53px;
+    height: 120px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    
+    color: #1F284F;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#normalHomeText{
+    width: 431px;
+    height: 96px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #575757;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#paintedHomeText{
+    width: 431px;
+    height: 96px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #575757;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    font-weight: bold
+}
+
+#homeMain form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 362px;
+    height: 88px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#homeLables{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 362px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#firstLable{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 140px;
+    height: 24px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#secondLable{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 206px;
+    height: 24px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#contactChoice1{
+    width: 20px;
+    height: 20px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#contactChoice2{
+    width: 20px;
+    height: 20px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#homeBigButton{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    
+    width: 173px;
+    height: 48px;
+
+    background: #3CBA79;
+    
+    border: 1px solid #3CBA79;
+    border-radius: 30px;
+
+    color: white;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#spiderImg{
+    position: absolute;
+    width: 508px;
+    height: 658px;
+    left: 771px;
+    top: 144px;
+    
+    border-radius: 16px 16px 16px 224px;
+}
+
+#aboutMainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 543px;
+    height: 408px;
+    left: 146px;
+    top: 290px;
+}
+
+#aboutBigText{
+    width: 543px;
+    height: 280px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #1F284F;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#aboutNormalText{
+    width: 551px;
+    height: 108px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #575757;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#aboutAfterWord{
+    width: 580px;
+    height: 28px;
+    margin-top: 35px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    
+    color: #17181A;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#snailImg{
+    position: absolute;
+    width: 443.31px;
+    height: 480.25px;
+    left: 798.82px;
+    top: 190.82px;
+    
+    border-radius: 16px 80px;
+}
+
+#aboutMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 48px 0px 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 553px;
+    height: 380px;
+    left: 150px;
+    top: 253px;
+}
+
+#aboutBigDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 444px;
+    height: 60px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#aboutTextDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 444px;
+    height: 208px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#aboutButtonsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 362px;
+    height: 48px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#aboutBigDiv span{
+    width: 444px;
+    height: 60px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+    font-feature-settings: 'liga' off;
+
+    color: #1F284F;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#aboutNormalText{
+    width: 444px;
+    height: 96px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    
+    font-feature-settings: 'liga' off;
+
+    color: #1F284F;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#aboutlittleText{
+    width: 444px;
+    height: 96px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+    font-feature-settings: 'liga' off;
+    
+    color: #575757;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#aboutContact{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 16px;
+
+    width: 173px;
+    height: 48px;
+
+    color: white;
+
+    background: rgba(0, 112, 240, 0.9);
+
+    border: 1px solid rgba(0, 112, 240, 0.9);
+    border-radius: 30px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#aboutBook{
+    color: white;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 16px;
+
+    width: 173px;
+    height: 48px;
+
+    background: #3CBA79;
+
+    border: 1px solid #3CBA79;
+    border-radius: 30px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#companyMain{
+    position: absolute;
+    width: 1139px;
+    height: 509px;
+    left: 150px;
+    top: 164px;
+}
+
+#companyText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 549px;
+    height: 228px;
+    left: 740px;
+    top: 392px;    
+}
+
+#companyTextDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 549px;
+    height: 164px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#comapnySpanDescription{
+    width: 549px;
+    height: 128px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #575757;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#companyReadMore{
+    width: 461px;
+    height: 32px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+
+    color: #0070F0;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#companyButtons{
+    width: 264px;
+    height: 48px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#descriptionText{
+    position: absolute;
+    width: 549px;
+    height: 128px;
+    left: 740px;
+    top: 248px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #575757;
+}
+
+#managerText{
+    position: absolute;
+    width: 234px;
+    height: 60px;
+    left: 736px;
+    top: 164px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #1F284F;
+}
+
+#birdImg{
+    position: absolute;
+    width: 543px;
+    height: 509px;
+    left: 150px;
+    top: 164px;
+
+    border-radius: 120px;
+}
+
+#Vk{
+    box-sizing: border-box;
+
+    margin-left: 240px;
+    border: 3px solid blue;
+    border-radius: 200px;
+}
